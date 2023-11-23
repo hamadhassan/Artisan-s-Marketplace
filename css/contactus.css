@@ -1,0 +1,29 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set background image */
+  .background-image {
+    background-image: url('path/to/your/image.jpg'); /* Replace 'path/to/your/image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set height to viewport height for full-screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Text color for better visibility */
+  }
+  
+  /* Additional styling for content */
+  .background-image h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .background-image p {
+    font-size: 1.5rem;
+  }
+  
