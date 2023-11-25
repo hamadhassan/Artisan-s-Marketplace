@@ -6,11 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artisan's Marketplace Website</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    
-
 </head>
 
 <body>
@@ -36,6 +34,7 @@
             <div class="fas fa-search" id="search-btn"></div>
             <div class="fas fa-shopping-cart" id="cart-btn"></div>
             <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-user-plus" id="signup-btn"></div>
         </div>
 
         <form action="" class="search-form">
@@ -80,8 +79,16 @@
             <input type="email" placeholder="your email" class="box">
             <input type="password" placeholder="your password" class="box">
             <p>forget your password <a href="#">click here</a></p>
-            <p>don't have an account <a href="#">create now</a></p>
             <input type="submit" value="login now" class="btn">
+        </form>
+
+        <form action="" class="signup-form">
+            <h3>SignUp now</h3>
+            <input type="username" placeholder="your username" class="box">
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <input type="role" placeholder="your role" class="box">
+            <input type="submit" value="SignUp now" class="btn">
         </form>
 
     </header>
@@ -354,61 +361,9 @@
             </div>
 
         </div>
-
-    </section>
-
-
-    <!-- blogs section  -->
-
-    <section class="blogs" id="blogs">
-
-        <h1 class="heading"> our blogs </h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <img src="image/1st_blog.jpg" alt="">
-                <div class="content">
-                    <div class="icons">
-                        <a href="#"> <i class="fas fa-user"></i> by user </a>
-                        <a href="#"> <i class="fas fa-calendar"></i> 1st Oct, 2023 </a>
-                    </div>
-                    <h3>Artisan Spotlight: Craft Stories</h3>
-                    <p> Discover the captivating narratives behind the craft, unveiling the rich stories and heritage
-                        embedded in each artisan's creation.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="image/2nd_blog.jpg" alt="">
-                <div class="content">
-                    <div class="icons">
-                        <a href="#"> <i class="fas fa-user"></i> by user </a>
-                        <a href="#"> <i class="fas fa-calendar"></i> 1st Oct, 2023 </a>
-                    </div>
-                    <h3>Handcrafted Elegance: Unique Treasures</h3>
-                    <p> Explore a curated collection of one-of-a-kind artisanal treasures, each piece a testament to
-                        exquisite craftsmanship and timeless elegance. </p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="image/3rd_blog.jpg" alt="">
-                <div class="content">
-                    <div class="icons">
-                        <a href="#"> <i class="fas fa-user"></i> by user </a>
-                        <a href="#"> <i class="fas fa-calendar"></i> 1st Oct, 2023 </a>
-                    </div>
-                    <h3>Celebrating Artisanal Diversity</h3>
-                    <p> Immerse yourself in a celebration of diverse cultures and traditions through a showcase of
-                        artisanal creations, each reflecting a unique cultural heritage.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>.
-
-        </div>
+        <br>
+        <br>
+        <br>
 
     </section>
 
@@ -460,12 +415,8 @@
 
     </section>
 
-
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
-    <!--js file link  -->
     <script src="js/script.js"></script>
 
 </body>.
-
 </html>.
