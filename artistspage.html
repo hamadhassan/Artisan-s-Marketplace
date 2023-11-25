@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisan's Marketplace Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Artisan's profile page -->
+    <!-- header section -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Artisan's Marketplace </a>
+
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="aboutpage.html">About</a>
+            <a href="artistspage.html">Artists</a>
+            <a href="servicespage.html">Services</a>
+            <a href="contactpage.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-user-plus" id="signup-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/1st_artwork.jpg" alt="">
+                <div class="content">
+                    <h3>Salvator Mundi </h3>
+                    <span class="price">$450.3 </span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/8th_artwork.jpg" alt="">
+                <div class="content">
+                    <h3>Meule</h3>
+                    <span class="price">$720</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/3rd_artwork.jpg" alt="">
+                <div class="content">
+                    <h3>Wasserschlange</h3>
+                    <span class="price">$333.7</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : $1720.4 </div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+        <form action="" class="signup-form">
+            <h3>SignUp now</h3>
+            <input type="username" placeholder="your username" class="box">
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <input type="role" placeholder="your role" class="box">
+            <input type="submit" value="SignUp now" class="btn">
+        </form>
+
+    </header>
+
+
+    <!-- artists section -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> our Artworks </h1>
+        <h1 class="heading"> Famous Artists </h1>
+
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/1st_artist.jpeg" alt="">
+                    <br>
+                    <br>
+                    <h3>Terry Acker Pottery</h3>
+                    <p>Terry shares her personal philosophy as a clay artist: “I love the mud-lusciousness of clay! Clay
+                        combines sculpture and painting</p>
+                    <br>
+                    <a href="#" class="btn">Related Artworks</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/2nd_artist.jpeg" alt="">
+                    <br>
+                    <br>
+                    <h3>HILBORN POTTERY</h3>
+                    <p>Nancy and Rick Hilborn and Hilborn Pottery were inducted into the One of a Kind Hall of Fame in
+                        November</p>
+                    <br>
+                    <a href="#" class="btn">Related Artworks</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/3rd_artist.jpeg" alt="">
+                    <br>
+                    <br>
+                    <h3>ANNE VAUGHAN DESIGNS</h3>
+                    <p>Founded in 2006, Anne Vaughan Designs was created so Anne could find a way to work while doing
+                        her first</p>
+                    <br>
+                    <a href="#" class="btn">Related Artworks</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/4th_artist.jpeg" alt="">
+                    <br>
+                    <br>
+                    <h3>ZEN ART AND DESIGN</h3>
+                    <p>At Zen Art & Design, we handcraft our heirloom-quality, eco-friendly, wooden jigsaw puzzles one
+                        at a time from start to</p>
+                    <br>
+                    <a href="#" class="btn">Related Artworks</a>
+                </div>
+
+            </div>
+
+        </div>
+        <br>
+        <br>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/5th_artist.jpeg" alt="">
+                    <br>
+                    <br>
+                    <h3>Sullo Glass Studio</h3>
+                    <p>Artist Glenn Sullo has been producing finely crafted custom stained glass boxes since 1976, he
+                        has been a part of</p>
+                    <br>
+                    <a href="#" class="btn">Related Artworks</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/6th_artist.jpeg" alt="">
+                    <br>
+                    <br>
+                    <h3>Schlabaugh and Sons</h3>
+                    <p>Mark and John Schlabaugh have been handcrafting clocks and other creative wood products since
+                        1981. They credit their father for</p>
+                    <br>
+                    <a href="#" class="btn">Related Artworks</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/7th_artist.jpeg" alt="">
+                    <br>
+                    <br>
+                    <h3>Sergio Lub</h3>
+                    <p>American artist Sergio is of Russian descent, born in Argentina. An avid researcher, he traveled
+                        to every continent to learn</p>
+                    <br>
+                    <a href="#" class="btn">Related Artworks</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/8th_artist.jpeg" alt="">
+                    <br>
+                    <br>
+                    <h3>Paul Anthony Stoneware</h3>
+                    <p>Founded in 1966 by Paul Anthony with his vision and passion to produce functional ceramic ware of
+                        high integrity, excellent</p>
+                    <br>
+                    <a href="#" class="btn">Related Artworks</a>
+                </div>
+
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <br>
+
+    </section>
+
+
+    <!-- footer section -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> Artisan's Marketplace <i class="fas fa-shopping-basket"></i> </h3>
+                <p>Aleeza Shakeel Ahmed. </p>
+                <br>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +923208808212 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +923164296066 </a>
+                <a href="aleezashakeel55@gmail.com" class="links"> <i class="fas fa-envelope"></i> aleezashakeel55@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> DHA-Phase-1 K-Block </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+                <a href="aboutpage.html" class="links"> <i class="fas fa-arrow-right"></i> About </a>
+                <a href="artistspage.html" class="links"> <i class="fas fa-arrow-right"></i> Artists </a>
+                <a href="servicespage.html" class="links"> <i class="fas fa-arrow-right"></i> Services </a>
+                <a href="contactpage.html" class="links"> <i class="fas fa-arrow-right"></i> Contact </a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="image/payment.png" class="payment-img" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+</body>
+</html>.

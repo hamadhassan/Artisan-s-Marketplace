@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisan's Marketplace Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contactus.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- contact page -->
+    <!-- header section -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Artisan's Marketplace </a>
+
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="aboutpage.html">About</a>
+            <a href="artistspage.html">Artists</a>
+            <a href="servicespage.html">Services</a>
+            <a href="contactpage.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-user-plus" id="signup-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/1st_artwork.jpg" alt="">
+                <div class="content">
+                    <h3>Salvator Mundi </h3>
+                    <span class="price">$450.3 </span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/8th_artwork.jpg" alt="">
+                <div class="content">
+                    <h3>Meule</h3>
+                    <span class="price">$720</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/3rd_artwork.jpg" alt="">
+                <div class="content">
+                    <h3>Wasserschlange</h3>
+                    <span class="price">$333.7</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : $1720.4 </div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+        <form action="" class="signup-form">
+            <h3>SignUp now</h3>
+            <input type="username" placeholder="your username" class="box">
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <input type="role" placeholder="your role" class="box">
+            <input type="submit" value="SignUp now" class="btn">
+        </form>
+
+    </header>
+
+
+    <!-- contact section -->
+
+    <div class="background-image">
+        <div class="contact-form-container">
+            <h1>Ready to talk?</h1>
+            <form action="/contact-us/" method="post">
+              <input type="text" name="name" placeholder="Name">
+              <input type="email" name="email" placeholder="Email">
+              <input type="submit" value="CONTACT US">
+            </form>
+          </div>          
+    </div>
+
+
+
+    <!-- footer section -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> Artisan's Marketplace <i class="fas fa-shopping-basket"></i> </h3>
+                <p>Aleeza Shakeel Ahmed. </p>
+                <br>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +923208808212 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +923164296066 </a>
+                <a href="aleezashakeel55@gmail.com" class="links"> <i class="fas fa-envelope"></i> aleezashakeel55@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> DHA-Phase-1 K-Block </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+                <a href="aboutpage.html" class="links"> <i class="fas fa-arrow-right"></i> About </a>
+                <a href="artistspage.html" class="links"> <i class="fas fa-arrow-right"></i> Artists </a>
+                <a href="servicespage.html" class="links"> <i class="fas fa-arrow-right"></i> Services </a>
+                <a href="contactpage.html" class="links"> <i class="fas fa-arrow-right"></i> Contact </a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="image/payment.png" class="payment-img" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+
+</body>
+</html>.
